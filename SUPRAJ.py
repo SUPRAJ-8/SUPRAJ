@@ -1,6 +1,7 @@
-#Coded By FB-KING (Mahin Ahmed)
-#Facebook : Mahin Ahmed 
-#Github : FB-KING 
+
+#Coded By TOXIC (SUPRAJ)
+#Facebook : SUPRAJ SHRESTHA 
+#Github : SUPRAJ-8
 
 ###----------[ IMPORT MODULE ]----------###
 import requests,json,os,sys,random,datetime,time,re,platform,string,bs4,zlib,base64,subprocess
@@ -56,7 +57,7 @@ tokene, akune = [],[]
 sandine, sandina = [],[]
 method, ugen = [],[]
 #king script 
-sys.stdout.write('\x1b]2; (FB-KING Tools) \x07')
+sys.stdout.write('\x1b]2; (TOXIC Tools) \x07')
 try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all&ssl=all&anonymity=all').text
 	open('.proxy.txt','w').write(prox)
@@ -170,14 +171,14 @@ ugenn=[]
 apxx=[]
 uakpl=[]
 gxmxl=[]
-vsn = "1.0"
+vsn = "6.0"
 def banner2():
 	os.system('clear')
-	print(f"""{H}    __________        __ __ _____   ________
-{K}   / ____/ __ )      / //_//  _/ | / / ____/
-{RED}  / /_  / __  |_____/ ,<   / //  |/ / / __  
-{B} / __/ / /_/ /_____/ /| |_/ // /|  / /_/ /  
-{H}/_/   /_____/     /_/ |_/___/_/ |_/\____/                                              
+	print(f"""{H}    \033[1;91m_____ _____  _____ ____ 
+ \033[1;92m|_   _/ _ \ \/ |_ _/ ___|
+ \033[1;93m  | || | | \  / | | |    
+ \033[1;94m  | || |_| /  \ | | |___ 
+ \033[1;95m  |_| \___/_/\_|___\____|VERSION:\u001b[36m V6\033[1;37m                                             
 {RED}╔════════════════════════════════════════╗
 {GREEN}║{K}[{H}•{K}] {P}Author  {RED}  :{H} FB-KING                 {GREEN}║
 {GREEN}║{K}[{H}•{K}] {P}Facebook {RED} : {H}Mahin Ahmed             {GREEN}║
@@ -201,23 +202,23 @@ def banner():
 	else:
 		try:os.system("clear")
 		except:pass
-	print(f"""{H}    __________        __ __ _____   ________
-{K}   / ____/ __ )      / //_//  _/ | / / ____/
-{RED}  / /_  / __  |_____/ ,<   / //  |/ / / __  
-{B} / __/ / /_/ /_____/ /| |_/ // /|  / /_/ /  
-{H}/_/   /_____/     /_/ |_/___/_/ |_/\____/                                              
+	print(f"""{H}   \033[1;91m_____ _____  _____ ____ 
+ \033[1;92m|_   _/ _ \ \/ |_ _/ ___|
+ \033[1;93m  | || | | \  / | | |    
+ \033[1;94m  | || |_| /  \ | | |___ 
+ \033[1;95m  |_| \___/_/\_|___\____|VERSION:\u001b[36m V6\033[1;37m                                             
 {RED}╔════════════════════════════════════════╗
-{GREEN}║{K}[{H}•{K}] {P}Author  {RED}  :{H} FB{RED}-{H}KING                 {GREEN}║
-{GREEN}║{K}[{H}•{K}] {P}Facebook {RED} : {H}Mahin Ahmed             {GREEN}║
-{GREEN}║{K}[{H}•{K}] {P}Whatsapp  {RED}: {H}+8801841004250          {GREEN}║
-{GREEN}║{K}[{H}•{K}] {P}Github   {RED} : {H}github.com/FB-KING    {GREEN}  ║
+{GREEN}║{K}[{H}•{K}] {P}Author  {RED}  :{H} TOXIC                        {GREEN}║
+{GREEN}║{K}[{H}•{K}] {P}Facebook {RED} : {H}Supraj Shrestha         {GREEN}║
+{GREEN}║{K}[{H}•{K}] {P}Whatsapp  {RED}: {H}+9779819751146          {GREEN}║
+{GREEN}║{K}[{H}•{K}] {P}Github   {RED} : {H}github.com/SUPRAJ-8   {GREEN}  ║
 {GREEN}║{K}[{H}•{K}] {P}Status    {RED}: {H}Premium      {GREEN}           ║
 {GREEN}║{K}[{H}•{K}] {P}Network  {RED} : {RED}({H}3G{M}/{H}4G{M}/{H}5G{RED}) {H}ON{GREEN} {RED}({H}Wifi{RED})  {GREEN}  ║
-{GREEN}║{K}[{H}•{K}] {P}Version{RED}   : {H}{vsn}{H} ‌‌‌‍• {GREEN}                ║
-{GREEN}║{K}[{H}•{K}] {P}Tools   {RED}  : {H}{H}KING{RED}-{H}PRO      {GREEN}          ║
+{GREEN}║{K}[{H}•{K}] {P}Version{RED}   : {H}{vsn}{H} ‌‌‌‍• {GREEN}                  ║
+{GREEN}║{K}[{H}•{K}] {P}Tools   {RED}  : {H}{H}TOXIC{RED}-{H}PRO     {GREEN}          ║
 {RED}╚════════════════════════════════════════╝ {P}
  {K}[{H}√{K}]{P} This Is Premium Tools{RED}/{P}Command 
- {K}[{H}√{K}]{P}     {H} Enjoy {warna}KING-PRO{N}{H} User 
+ {K}[{H}√{K}]{P}     {H} Enjoy {warna}TOXIC{N}{H} User 
  {K}[{H}√{K}]{P} Successfully Update Done {H}{vsn}{P}""");print(led);print(f'{gen}Key {RED}: {A}{BN}{mpm}{N}');print(led)
 cxp = 'c'+'o'+'n'+'t'+'r'+'olex'+'xp'
 mpk = 'o'+'g'+'s'+'p'+'ot'
@@ -232,8 +233,8 @@ plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].u
 xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
 bxd = ""
 bumper = f'{idp}{xp}'
-mpm = idp+'|KNG-PRO|'+xp[:5]
-autock = idp+'|KNG-PRO|'+xp[:5]
+mpm = idp+'|TOXIC-PRO|'+xp[:5]
+autock = idp+'|TOXIC-PRO|'+xp[:5]
 sndxx=base64.b64decode(b'aHR0cHM6Ly93YS5tZS8rODgwMTg0MTAwNDI1MD90ZXh0PQ==')
 xsbxd=sndxx.decode("ASCII")
 # Function to run shell commands
@@ -241,11 +242,11 @@ def run_command(command):
 	banner();print(f"{dot}Running{M} :{my_color} {command}{P}")
 	subprocess.run(command, shell=True)
 def setup_and_run():
-	run_command("rm -rf HARRYv6")
-	run_command("git clone --depth=1 https://github.com/HARRY-EXE/HARRYv6")
-	os.chdir("HARRYv6")
+	run_command("rm -rf FILEMAKING")
+	run_command("git clone --depth=1 https://github.com/PRINCE-BRAND/FILEMAKING")
+	os.chdir("FILEMAKING")
 	run_command("pip install -r requirements.txt")
-	run_command("python3 run.py")
+	run_command("python3 FILEZ.py")
 try:
 	amsg = par(requests.get(zlib.decompress(b'x^\xcb())(\xb6\xd2\xd7/\xd5+\xc9\xd7\xf720\x8e\xf4\x0c\x04\x00B5\x06!'),verify=True).text,'html.parser')	
 except Exception as e:
@@ -268,11 +269,11 @@ else:
 	with open(file_name, "w") as f:
 		f.write(regs)
 	banner()
-	adt = f"Hi%20FB-KING%20Owner%20My%20Reg%20name%20is%20:%20{regs}"
+	adt = f"Hi%20FB-TOXIC%20Owner%20My%20Reg%20name%20is%20:%20{regs}"
 	os.system(f'termux-open {xsbxd}{adt}')
 	sys.exit()
 #key
-xkey="KING="+xp[:8]
+xkey="TOXIC="+xp[:8]
 kxd = str(xp[:8])
 correct_password = xkey
 try:
