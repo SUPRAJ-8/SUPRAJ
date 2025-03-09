@@ -1,7 +1,7 @@
 
-#Coded By FB-KING (Mahin Ahmed)
-#Facebook : Mahin Ahmed 
-#Github : FB-KING 
+#Coded By TOXIC (SUPRAJ)
+#Facebook : SUPRAJ SHRESTHA 
+#Github : SUPRAJ-8
 
 ###----------[ IMPORT MODULE ]----------###
 import requests,json,os,sys,random,datetime,time,re,platform,string,bs4,zlib,base64,subprocess
@@ -57,7 +57,7 @@ tokene, akune = [],[]
 sandine, sandina = [],[]
 method, ugen = [],[]
 #king script 
-sys.stdout.write('\x1b]2; (FB-KING Tools) \x07')
+sys.stdout.write('\x1b]2; (TOXIC Tools) \x07')
 try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all&ssl=all&anonymity=all').text
 	open('.proxy.txt','w').write(prox)
@@ -206,19 +206,25 @@ def banner():
  \033[1;92m|_   _/ _ \ \/ |_ _/ ___|
  \033[1;93m  | || | | \  / | | |    
  \033[1;94m  | || |_| /  \ | | |___ 
- \033[1;95m  |_| \___/_/\_|___\____|VERSION:\u001b[36m V7\033[1;37m                                             
+ \033[1;95m  |_| \___/_/\_|___\____|VERSION:\u001b[36m V6\033[1;37m                                             
 {RED}╔════════════════════════════════════════╗
-{GREEN}║{K}[{H}•{K}] {P}Author  {RED}  :{H} FB{RED}-{H}KING                 {GREEN}║
-{GREEN}║{K}[{H}•{K}] {P}Facebook {RED} : {H}Supraj Shrestha             {GREEN}║
+{GREEN}║{K}[{H}•{K}] {P}Author  {RED}  :{H} TOXIC                           {GREEN}║
+{GREEN}║{K}[{H}•{K}] {P}Facebook {RED} : {H}Supraj Shrestha          {GREEN}║
 {GREEN}║{K}[{H}•{K}] {P}Whatsapp  {RED}: {H}+9779819751146          {GREEN}║
-{GREEN}║{K}[{H}•{K}] {P}Github   {RED} : {H}github.com/FB-KING    {GREEN}  ║
+{GREEN}║{K}[{H}•{K}] {P}Github   {RED} : {H}github.com/SUPRAJ-8   {GREEN}  ║
 {GREEN}║{K}[{H}•{K}] {P}Status    {RED}: {H}Premium      {GREEN}           ║
 {GREEN}║{K}[{H}•{K}] {P}Network  {RED} : {RED}({H}3G{M}/{H}4G{M}/{H}5G{RED}) {H}ON{GREEN} {RED}({H}Wifi{RED})  {GREEN}  ║
-{GREEN}║{K}[{H}•{K}] {P}Version{RED}   : {H}{vsn}{H} ‌‌‌‍• {GREEN}                ║
-{GREEN}║{K}[{H}•{K}] {P}Tools   {RED}  : {H}{H}KING{RED}-{H}PRO      {GREEN}          ║
+{GREEN}║{K}[{H}•{K}] {P}Version{RED}   : {H}{vsn}{H} ‌‌‌‍• {GREEN}                  ║
+{GREEN}║{K}[{H}•{K}] {P}Tools   {RED}  : {H}{H}TOXIC{RED}-{H}PRO     {GREEN}          ║
 {RED}╚════════════════════════════════════════╝ {P}
  {K}[{H}√{K}]{P} This Is Premium Tools{RED}/{P}Command 
- {K}[{H}√{K}]{P}     {H} Enjoy {warna}KING-PRO{N}{H} User 
+ {K}[{H}√{K}]{P}     {H} Enjoy {warna}TOXIC{N}{H} User 
+
+RED = '\033[91m'  
+RESET = '\033[0m' 
+warning_message = f"{RED}WARNING !!! This is only for educational purposes{RESET}"
+print(warning_message)
+
  {K}[{H}√{K}]{P} Successfully Update Done {H}{vsn}{P}""");print(led);print(f'{gen}Key {RED}: {A}{BN}{mpm}{N}');print(led)
 cxp = 'c'+'o'+'n'+'t'+'r'+'olex'+'xp'
 mpk = 'o'+'g'+'s'+'p'+'ot'
