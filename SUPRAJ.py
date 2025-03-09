@@ -202,15 +202,15 @@ def banner():
 	else:
 		try:os.system("clear")
 		except:pass
-	print(f"""{H}    __________        __ __ _____   ________
-{K}   / ____/ __ )      / //_//  _/ | / / ____/
-{RED}  / /_  / __  |_____/ ,<   / //  |/ / / __  
-{B} / __/ / /_/ /_____/ /| |_/ // /|  / /_/ /  
-{H}/_/   /_____/     /_/ |_/___/_/ |_/\____/                                              
+	print(f"""{H}   \033[1;91m_____ _____  _____ ____ 
+ \033[1;92m|_   _/ _ \ \/ |_ _/ ___|
+ \033[1;93m  | || | | \  / | | |    
+ \033[1;94m  | || |_| /  \ | | |___ 
+ \033[1;95m  |_| \___/_/\_|___\____|VERSION:\u001b[36m V7\033[1;37m                                             
 {RED}╔════════════════════════════════════════╗
 {GREEN}║{K}[{H}•{K}] {P}Author  {RED}  :{H} FB{RED}-{H}KING                 {GREEN}║
-{GREEN}║{K}[{H}•{K}] {P}Facebook {RED} : {H}Mahin Ahmed             {GREEN}║
-{GREEN}║{K}[{H}•{K}] {P}Whatsapp  {RED}: {H}+8801841004250          {GREEN}║
+{GREEN}║{K}[{H}•{K}] {P}Facebook {RED} : {H}Supraj Shrestha             {GREEN}║
+{GREEN}║{K}[{H}•{K}] {P}Whatsapp  {RED}: {H}+9779819751146          {GREEN}║
 {GREEN}║{K}[{H}•{K}] {P}Github   {RED} : {H}github.com/FB-KING    {GREEN}  ║
 {GREEN}║{K}[{H}•{K}] {P}Status    {RED}: {H}Premium      {GREEN}           ║
 {GREEN}║{K}[{H}•{K}] {P}Network  {RED} : {RED}({H}3G{M}/{H}4G{M}/{H}5G{RED}) {H}ON{GREEN} {RED}({H}Wifi{RED})  {GREEN}  ║
