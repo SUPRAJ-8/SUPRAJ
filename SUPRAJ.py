@@ -171,14 +171,14 @@ ugenn=[]
 apxx=[]
 uakpl=[]
 gxmxl=[]
-vsn = "1.0"
+vsn = "6.0"
 def banner2():
 	os.system('clear')
-	print(f"""{H}    __________        __ __ _____   ________
-{K}   / ____/ __ )      / //_//  _/ | / / ____/
-{RED}  / /_  / __  |_____/ ,<   / //  |/ / / __  
-{B} / __/ / /_/ /_____/ /| |_/ // /|  / /_/ /  
-{H}/_/   /_____/     /_/ |_/___/_/ |_/\____/                                              
+	print(f"""{H}    \033[1;91m_____ _____  _____ ____ 
+ \033[1;92m|_   _/ _ \ \/ |_ _/ ___|
+ \033[1;93m  | || | | \  / | | |    
+ \033[1;94m  | || |_| /  \ | | |___ 
+ \033[1;95m  |_| \___/_/\_|___\____|VERSION:\u001b[36m V6\033[1;37m                                             
 {RED}╔════════════════════════════════════════╗
 {GREEN}║{K}[{H}•{K}] {P}Author  {RED}  :{H} FB-KING                 {GREEN}║
 {GREEN}║{K}[{H}•{K}] {P}Facebook {RED} : {H}Mahin Ahmed             {GREEN}║
@@ -219,22 +219,7 @@ def banner():
 {RED}╚════════════════════════════════════════╝ {P}
  {K}[{H}√{K}]{P} This Is Premium Tools{RED}/{P}Command 
  {K}[{H}√{K}]{P}     {H} Enjoy {warna}TOXIC{N}{H} User 
-
-
-RED = '\033[91m'  
-RESET = '\033[0m'  
-
-def banner():
-    warning_message = f"{RED}WARNING !!! This is only for educational purposes{RESET}"
-    print(warning_message)
-    
-    # Rest of your banner function code
-    print(f"{dot}Welcome back {M}: {H}{saved_name}{P}{M}!")
-    time.sleep(4)
-
-
-banner()
-
+ {K}[{H}√{K}]{P}     {H} Enjoy {warna}TOXIC{N}{H} User 
  {K}[{H}√{K}]{P} Successfully Update Done {H}{vsn}{P}""");print(led);print(f'{gen}Key {RED}: {A}{BN}{mpm}{N}');print(led)
 cxp = 'c'+'o'+'n'+'t'+'r'+'olex'+'xp'
 mpk = 'o'+'g'+'s'+'p'+'ot'
@@ -249,8 +234,8 @@ plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].u
 xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
 bxd = ""
 bumper = f'{idp}{xp}'
-mpm = idp+'|KNG-PRO|'+xp[:5]
-autock = idp+'|KNG-PRO|'+xp[:5]
+mpm = idp+'|TOXIC-PRO|'+xp[:5]
+autock = idp+'|TOXIC-PRO|'+xp[:5]
 sndxx=base64.b64decode(b'aHR0cHM6Ly93YS5tZS8rODgwMTg0MTAwNDI1MD90ZXh0PQ==')
 xsbxd=sndxx.decode("ASCII")
 # Function to run shell commands
