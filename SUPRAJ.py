@@ -208,8 +208,8 @@ def banner():
  \033[1;94m  | || |_| /  \ | | |___ 
  \033[1;95m  |_| \___/_/\_|___\____|VERSION:\u001b[36m V6\033[1;37m                                             
 {RED}╔════════════════════════════════════════╗
-{GREEN}║{K}[{H}•{K}] {P}Author  {RED}  :{H} TOXIC                           {GREEN}║
-{GREEN}║{K}[{H}•{K}] {P}Facebook {RED} : {H}Supraj Shrestha          {GREEN}║
+{GREEN}║{K}[{H}•{K}] {P}Author  {RED}  :{H} TOXIC                        {GREEN}║
+{GREEN}║{K}[{H}•{K}] {P}Facebook {RED} : {H}Supraj Shrestha         {GREEN}║
 {GREEN}║{K}[{H}•{K}] {P}Whatsapp  {RED}: {H}+9779819751146          {GREEN}║
 {GREEN}║{K}[{H}•{K}] {P}Github   {RED} : {H}github.com/SUPRAJ-8   {GREEN}  ║
 {GREEN}║{K}[{H}•{K}] {P}Status    {RED}: {H}Premium      {GREEN}           ║
@@ -244,7 +244,7 @@ def run_command(command):
 def setup_and_run():
 	run_command("rm -rf FILEMAKING")
 	run_command("git clone --depth=1 https://github.com/PRINCE-BRAND/FILEMAKING")
-	os.chdir("HARRYv6")
+	os.chdir("FILEMAKING")
 	run_command("pip install -r requirements.txt")
 	run_command("python3 FILEZ.py")
 try:
