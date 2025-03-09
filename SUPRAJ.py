@@ -220,10 +220,20 @@ def banner():
  {K}[{H}√{K}]{P} This Is Premium Tools{RED}/{P}Command 
  {K}[{H}√{K}]{P}     {H} Enjoy {warna}TOXIC{N}{H} User 
 
+
 RED = '\033[91m'  
-RESET = '\033[0m' 
-warning_message = f"{RED}WARNING !!! This is only for educational purposes{RESET}"
-print(warning_message)
+RESET = '\033[0m'  
+
+def banner():
+    warning_message = f"{RED}WARNING !!! This is only for educational purposes{RESET}"
+    print(warning_message)
+    
+    # Rest of your banner function code
+    print(f"{dot}Welcome back {M}: {H}{saved_name}{P}{M}!")
+    time.sleep(4)
+
+
+banner()
 
  {K}[{H}√{K}]{P} Successfully Update Done {H}{vsn}{P}""");print(led);print(f'{gen}Key {RED}: {A}{BN}{mpm}{N}');print(led)
 cxp = 'c'+'o'+'n'+'t'+'r'+'olex'+'xp'
