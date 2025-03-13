@@ -261,7 +261,7 @@ file_name = ".name.txt"
 if os.path.exists(file_name):
 	with open(file_name, "r") as f:
 		saved_name = f.read().strip()
-	banner();print(f"{dot}Welcome back {M}: {H}{saved_name}{P}{M}!");time.sleep(4)
+	banner();print(f"{dot}Welcome back {M}: {H}{saved_name}{P}{M}!");time.sleep(2)
 else:
 	banner()
 	regs = input(f'{dot} Name For registration {M}:{H} ')
