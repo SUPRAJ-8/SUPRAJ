@@ -1,6 +1,6 @@
 #Coded By TOXIC-XD (Supraj Shrestha)
 #Facebook : SUPRAJ SHRESTHA 
-#Github : TOXIC-XD 
+#Github : SUPRAJ-8 
 
 ###----------[ IMPORT MODULE ]----------###
 import requests,json,os,sys,random,datetime,time,re,platform,string,bs4,zlib,base64,subprocess
@@ -201,7 +201,7 @@ def banner():
 	else:
 		try:os.system("clear")
 		except:pass
-	print(f"""{H}   \\033[1;91m_____ _____  _____ ____ 
+	print(f"""   \\033[1;91m_____ _____  _____ ____ 
 \\033[1;92m|_   _/ _ \\ \\/ |_ _/ ___|
 \\033[1;93m  | || | | \\  / | | |    
 \\033[1;94m  | || |_| /  \\ | | |___ 
@@ -1474,4 +1474,3 @@ if __name__=='__main__':
 		hack(mht)
 	except requests.exceptions.ConnectionError:banner();print(f'{rgen}Check Your Internet..');exit()
 	except:banner();print(f'{rgen}Hello Brother something wrong');exit()
-		
