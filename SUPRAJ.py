@@ -185,8 +185,8 @@ def banner2():
 {GREEN}║{K}[{H}•{K}] {P}Github   {RED} : {H}github.com/SUPRAJ-8   {GREEN}  ║
 {GREEN}║{K}[{H}•{K}] {P}Status    {RED}: {H}Premium      {GREEN}           ║
 {GREEN}║{K}[{H}•{K}] {P}Network  {RED} : {RED}({H}3G{M}/{H}4G{M}/{H}5G{RED}) {H}ON{GREEN} {RED}({H}Wifi{RED})  {GREEN}  ║
-{GREEN}║{K}[{H}•{K}] {P}Version{RED}   : {H}{vsn} {GREEN}                  ║
-{GREEN}║{K}[{H}•{K}] {P}Tools   {RED}  : {H}{H}TOXIC{RED}-{H}PRO      {GREEN}          ║
+{GREEN}║{K}[{H}•{K}] {P}Version{RED}   : {H}{vsn} {GREEN}                    ║
+{GREEN}║{K}[{H}•{K}] {P}Tools   {RED}  : {H}{H}TOXIC{RED}-{H}PRO     {GREEN}          ║
 {RED}╚════════════════════════════════════════╝ {P}
  {K}[{H}√{K}]{P} This Is Premium Tools{RED}/{P}Command 
  {K}[{H}√{K}]{P}     {H} Enjoy {warna}TOXIC-PRO{N}{H} User 
@@ -213,8 +213,8 @@ def banner():
 {GREEN}║{K}[{H}•{K}] {P}Github   {RED} : {H}github.com/SUPRAJ-8   {GREEN}  ║
 {GREEN}║{K}[{H}•{K}] {P}Status    {RED}: {H}Premium      {GREEN}           ║
 {GREEN}║{K}[{H}•{K}] {P}Network  {RED} : {RED}({H}3G{M}/{H}4G{M}/{H}5G{RED}) {H}ON{GREEN} {RED}({H}Wifi{RED})  {GREEN}  ║
-{GREEN}║{K}[{H}•{K}] {P}Version{RED}   : {H}{vsn}{H} ‌‌‌‍• {GREEN}                ║
-{GREEN}║{K}[{H}•{K}] {P}Tools   {RED}  : {H}{H}TOXIC{RED}-{H}PRO      {GREEN}          ║
+{GREEN}║{K}[{H}•{K}] {P}Version{RED}   : {H}{vsn}{H} ‌‌‌‍• {GREEN}                  ║
+{GREEN}║{K}[{H}•{K}] {P}Tools   {RED}  : {H}{H}TOXIC{RED}-{H}PRO     {GREEN}          ║
 {RED}╚════════════════════════════════════════╝ {P}
  {K}[{H}√{K}]{P} This Is Premium Tools{RED}/{P}Command 
  {K}[{H}√{K}]{P}     {H} Enjoy {warna}TOXIC-PRO{N}{H} User 
@@ -232,8 +232,8 @@ plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].u
 xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
 bxd = ""
 bumper = f'{idp}{xp}'
-mpm = idp+'|KNG-PRO|'+xp[:5]
-autock = idp+'|KNG-PRO|'+xp[:5]
+mpm = idp+'|TOXIC-PRO|'+xp[:5]
+autock = idp+'|TOXIC-PRO|'+xp[:5]
 sndxx=base64.b64decode(b'aHR0cHM6Ly93YS5tZS8rODgwMTg0MTAwNDI1MD90ZXh0PQ==')
 xsbxd=sndxx.decode("ASCII")
 # Function to run shell commands
@@ -242,7 +242,7 @@ def run_command(command):
 	subprocess.run(command, shell=True)
 def setup_and_run():
 	run_command("rm -rf HARRYv6")
-	run_command("git clone --depth=1 https://github.com/HARRY-EXE/HARRYv6")
+	run_command("git clone --depth=1 ")
 	os.chdir("HARRYv6")
 	run_command("pip install -r requirements.txt")
 	run_command("python3 run.py")
