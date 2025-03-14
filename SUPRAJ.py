@@ -173,11 +173,11 @@ gxmxl=[]
 vsn = "1.0"
 def banner2():
 	os.system('clear')
-	print(f"""{H}    __________        __ __ _____   ________
-{K}   / ____/ __ )      / //_//  _/ | / / ____/
-{RED}  / /_  / __  |_____/ ,<   / //  |/ / / __  
-{B} / __/ / /_/ /_____/ /| |_/ // /|  / /_/ /  
-{H}/_/   /_____/     /_/ |_/___/_/ |_/\____/                                              
+	print(f"""{H}   _____ _____  _____ ____ 
+|_   _/ _ \\ \\/ |_ _/ ___|
+  | || | | \\  / | | |    
+  | || |_| /  \\ | | |___ 
+  |_| \\___/_/\\_|___\\____|VERSION:V7                                               
 {RED}╔════════════════════════════════════════╗
 {GREEN}║{K}[{H}•{K}] {P}Author  {RED}  :{H} TOXIC-XD                {GREEN}║
 {GREEN}║{K}[{H}•{K}] {P}Facebook {RED} : {H}SUPRAJ SHRESTHA         {GREEN}║
@@ -201,11 +201,11 @@ def banner():
 	else:
 		try:os.system("clear")
 		except:pass
-	print(f"""   \\033[1;91m_____ _____  _____ ____ 
-\\033[1;92m|_   _/ _ \\ \\/ |_ _/ ___|
-\\033[1;93m  | || | | \\  / | | |    
-\\033[1;94m  | || |_| /  \\ | | |___ 
-\\033[1;95m  |_| \\___/_/\\_|___\\____|VERSION:\\u001b[36m V7\\033[1;37m                                             
+	print(f"""{H}   _____ _____  _____ ____ 
+|_   _/ _ \\ \\/ |_ _/ ___|
+  | || | | \\  / | | |    
+  | || |_| /  \\ | | |___ 
+  |_| \\___/_/\\_|___\\____|VERSION:V7                                             
 {RED}╔════════════════════════════════════════╗
 {GREEN}║{K}[{H}•{K}] {P}Author  {RED}  :{H} TOXIC{RED}-{H}XD                {GREEN}║
 {GREEN}║{K}[{H}•{K}] {P}Facebook {RED} : {H}SUPRAJ SHRESTHA         {GREEN}║
@@ -261,7 +261,7 @@ file_name = ".name.txt"
 if os.path.exists(file_name):
 	with open(file_name, "r") as f:
 		saved_name = f.read().strip()
-	banner();print(f"{dot}Welcome back {M}: {H}{saved_name}{P}{M}!");time.sleep(4)
+	banner();print(f"{dot}Welcome back {M}: {H}{saved_name}{P}{M}!");time.sleep(2)
 else:
 	banner()
 	regs = input(f'{dot} Name For registration {M}:{H} ')
@@ -300,14 +300,14 @@ def hack(mht):
 	firstck();cserver();keyck()
 	banner();print(f"{K} [{H}1{K}] {WHITE}Public File Make {RED}[{H}New{RED}]{P} ");print(f"{K} [{H}2{K}] {WHITE}Public Clone     {RED}[{H}FF{RED}]{P} ");print(f"{K} [{H}3{K}] {WHITE}File Clone       {RED}[{H}V4{RED}]{P}");print(f"{K} [{H}4{K}] {WHITE}Random Clone     {RED}[{H}New{RED}]{P}");print(f"{K} [{H}5{K}] {WHITE}Report Problem   {RED}[{H}Send{RED}]{P} ");print(f"{K} [{H}0{K}] {WHITE}Exit Program     {RED}[{H}Tools{RED}]{P} ");print(led)
 	mahin = input(f'{dot}Select menu {M}:{H} ')
-	os.system(f'termux-open https://www.facebook.com/groups/king.official.bd/?ref=share&mibextid=NSMWBT')
+	os.system(f'termux-open ')
 	if mahin in ["1","01"]:setup_and_run()
 	elif mahin in ["2","02"]:exit() 
 	elif mahin in ["3","03"]:flcln(mahin)
 	elif mahin in ["4","04"]:brndm(mht)
 	elif mahin in ["5","05"]:os.system('xdg-open https://www.facebook.com/share/1DxPN2Dpf8/');os.system('xdg-open https://wa.me/8801841004250');exit()
 	elif mahin in ["0","00"]:exit()
-	else:os.system('termux-open https://www.facebook.com/groups/king.official.bd/?ref=share&mibextid=NSMWBT');exit()
+	else:os.system('termux-open');exit()
 def brndm(mht):
 	banner();print(f"{K} [{H}1{K}] {WHITE}Random  {M}[{H}8-Digit{M}]{P} ");print(f"{K} [{H}2{K}] {WHITE}Random  {M}[{H}7-Digit{M}]{P} ");print(f"{K} [{H}3{K}] {WHITE}Random  {M}[{H}6-Digit{M}]{P}");print(f"{K} [{H}4{K}] {WHITE}Random  {M}[{H}Gmail{M}]{P}");print(f"{K} [{H}5{K}] {WHITE}Back To {M}[{H}Home{M}]{P}");print(f"{K} [{H}6{K}] {WHITE}Exit Tools {P} ");print(led)
 	mahin = input(f'{dot}Select menu {M}:{H} ')
